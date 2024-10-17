@@ -1,0 +1,26 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Double Doors by TsranunaPogazu\nDiscord: @xskt    DMs open if u need help! :D\nBeta APIs required.",
+        "name": "Double Doors!",
+        "uuid": "17941eb9-51d8-4460-8217-d1dfa90b7e53",
+        "version": [2, 0, 2],
+        "min_engine_version": [1, 21, 30]
+    },
+    "modules": [
+        {
+            "description": "Double Doors",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "788b42e5-6e36-4474-ba4f-b9442f6aa089",
+            "version": [2, 0, 2],
+            "entry": "scripts/index.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.15.0-beta"
+        }
+    ]
+}
